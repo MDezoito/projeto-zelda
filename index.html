@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>The Legend of Zelda</title>
+</head>
+<body>
+
+     <div class="video-fundo">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/Morshu beatbox loop.mp4" type="video/mp4"> 
+        </video>
+    </div> 
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/logo-zelda.png" alt="Triforce">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li> <a href="./index.html">Home</a></li>
+                <li> <a href="./src/detalhes.html">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/titulo.png" alt="Título da Franquia TLZ">
+            <p class="texto-principal" > The Legend of Zelda é uma série de jogos eletrônicos da Nintendo criada em 1986 por Shigeru Miyamoto e Takashi Tezuka. É centrado em jogos eletrônicos de ação e aventura e alguns elementos de RPG. Os jogos se passam no reino de Hyrule, num cenário de fantasia. A franquia concentra-se em títulos focados no gênero ação e aventura, além de RPG de ação e resolução de quebra-cabeças. Recentemente foi anunciado o mais novo jogo da franquia, intitulado como The Legends of Zelda: Tears of the Kingdom.</p>
+                <button class="botao-trailer">Assista ao trailer</button>
+        </div>
+        <img class="heroi" src="./src/imagens/legend-of-zelda-chars.png" alt="Link, o Herói.">
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2SNF4M_v7wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src='./src/js/index.js'></script>
+
+</body>
+</html>
